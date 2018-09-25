@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>my-portofolio</title>
+   <!--======meta======--> 
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+   <!--======bootstrap======--> 
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <!--====== lib======--> 
+  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+   <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!--====== style ======--> 
+   <link href="css/animate.css" rel="stylesheet">
+   <link href="css/style.css" rel="stylesheet" type="text/css">
+
+   
+</head>
+    <body>
+       <div id="preloader"></div>
+        <!-- nav -->
+           <nav class="navbar navbar-inverse">
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>                        
+              </button>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+              <ul class="nav">
+                   <li><a  href="#"><i class="fa fa-fw fa-home"></i> Home</a> 
+                    <li><a  href="#"><i class="fa fa-fw fa-user"></i> About</a>
+                    <li><a  href="#"><i class="fa fa-briefcase" aria-hidden="true"></i> Portofolio</a></li>
+                     <li><a  href="#"><i class="fa fa-map-marker" aria-hidden="true"></i> Contact</a> 
+                  </ul>
+                </div>
+              </div>
+        </nav>
+
+<!-- intro -->
+    <div id="intro">
+       <h1>
+          <a href="" class="typewrite" data-period="2000" data-type='[ "Hi, Im MONA.", "I am Creative.", "I Love Design.", "I Love to Develop." ]'>
+            <span class="wrap"></span>
+          </a>
+    </h1>
+    <h2 class="main">My name is MONA HAMDY</h2>
+    
+      <br><p class="hero">I'm a junior Front End Developer<br> This page is a simple personal Portofolio </p>
+    </div>
+
+ 
+<!-- skills -->
+<div class="row">
+      <div class="eight col" id="skill">
+     <h3 id="demo" onclick="Skillx()">my Skills</h3>       
+        <div class="progressBar">
+          <h4>HTML</h4>
+          <div class="progressBarContainer">
+            <div class="progressBarValue value-90 animated rotateIn"></div>
+          </div>
+        </div>
+        <div class="progressBar">
+          <h4>CSS3</h4>
+          <div class="progressBarContainer">
+            <div class="progressBarValue value-80 animated rotateIn"></div>
+          </div>
+        </div>
+        <div class="progressBar">
+          <h4>Js</h4>
+          <div class="progressBarContainer">
+            <div class="progressBarValue value-30 animated rotateIn"></div>
+          </div>
+        </div>
+        <div class="progressBar">
+          <h4>WordPress</h4>
+          <div class="progressBarContainer">
+            <div class="progressBarValue value-70 animated rotateIn"></div>
+          </div>
+        </div>
+    <div class="progressBar">
+          <h4>Jquery</h4>
+          <div class="progressBarContainer">
+            <div class="progressBarValue value-30 animated rotateIn"></div>
+          </div>
+        </div>
+        
+          <div class="progressBar"><h3>FRAME WORK</h3> 
+          <h4>LARAVEL</h4>
+          <div class="progressBarContainer">
+            <div class="progressBarValue value-70 animated rotateIn"></div>
+          </div>
+        </div>
+        
+         <div class="progressBar"><h3>Responsive Design</h3> 
+          <h4>BOOTSTRAP3</h4>
+          <div class="progressBarContainer">
+            <div class="progressBarValue value-70 animated rotateIn"></div>
+          </div>
+        </div>
+        <div class="progressBar"><h3>Graphic design</h3> 
+          <h4>photoshop</h4>
+          <div class="progressBarContainer">
+            <div class="progressBarValue value-40 animated rotateIn"></div>
+          </div>
+        </div>
+        <div class="progressBar">
+         <h4>ILLUSTRATOR</h4>
+          <div class="progressBarContainer">
+            <div class="progressBarValue value-40 animated rotateIn"></div>
+          </div>
+        </div>
+      <div class="progressBar">
+        <h3>Github</h3> 
+         <h4>github</h4>
+         
+          <div class="progressBarContainer">
+          
+            <div class="progressBarValue value-40 animated rotateIn"></div>
+          </div>
+        </div>
+    </div>
+    </div>
+    
+    
+<!-- end-skills -->
+
+
+
+<!--==========================
+      Portfolio Section
+    ============================-->
+    <section id="portfolio" class="section-bg" >
+      <div class="container">
+      <span onclick="goTop()" id="topX">&#8911;</span>
+        <header class="section-header">
+          <h5 class="section-title">Our Portfolio</h5>
+        </header>
+
+        <div class="row">
+          <div class="col-lg-12">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-app">project1</li>
+              <li data-filter=".filter-card">project2</li>
+              <li data-filter=".filter-web">project3</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row portfolio-container">
+          <div class="col-lg-4 col-md-6 col-xs-12 portfolio-item filter-app wow fadeInUp" data-wow-delay="0.1s">
+            <div class="portfolio-wrap">
+              <figure>
+               <img src="images/wayak.png" class="img-fluid" alt="">
+                <a href="http://front2017.eb2a.com" class="link-preview" data-lightbox="portfolio" data-title="Web 3" title="Preview"><i class="ion ion-eye"></i></a>
+                <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+              </figure>
+
+              <div class="portfolio-info">
+                <h4><a href="http://front2017.eb2a.com">project1</a></h4>
+                <p></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-xs-12 portfolio-item filter-card ">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="images/150.jpg" class="img-fluid" alt="">
+                <a href="img/portfolio/app2.jpg" data-lightbox="portfolio" data-title="App 1" class="link-preview" title="Preview"><i class="ion ion-eye"></i></a>
+                <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+              </figure>
+
+              <div class="portfolio-info">
+                <h4><a href="https://mona0204.github.io/project/">project2</a></h4>
+                <p></p>
+              </div>
+            </div>
+          </div>
+         <div class="col-lg-4 col-md-6 col-xs-12 portfolio-item filter-web wow fadeInUp">
+            <div class="portfolio-wrap">
+          <figure>
+              <img src="images/jjjj.png" class="img-fluid" alt="">
+                <a href="img/portfolio/app2.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 2" title="Preview"><i class="ion ion-eye"></i></a>
+                <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+              </figure>
+
+              <div class="portfolio-info">
+                <h4><a href="https://mona0204.github.io/watch/">project3</a></h4>
+                <p></p>
+              </div>
+            </div>
+          </div>
+
+         
+          <div class="col-lg-4 col-md-6 col-xs-12 portfolio-item filter-app wow fadeInUp" data-wow-delay="0.1s">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="images/288.png" class="img-fluid" alt="">
+                <a href="https://mona0204.github.io/document/" class="link-preview" data-lightbox="portfolio" data-title="Web 2" title="Preview"><i class="ion ion-eye"></i></a>
+                <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+              </figure>
+
+              <div class="portfolio-info">
+                <h4><a href="https://mona0204.github.io/extra">project1</a></h4>
+                <p></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-xs-12 portfolio-item filter-card wow fadeInUp" data-wow-delay="0.2s">
+            <div class="portfolio-wrap">
+              <figure>
+                
+                 <img src="images/XTEAM-2.png" class="img-fluid" alt="">
+                <a href="img/portfolio/app2.jpg" class="link-preview" data-lightbox="portfolio" data-title="App 2" title="Preview"><i class="ion ion-eye"></i></a>
+                <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+              </figure>
+
+              <div class="portfolio-info">
+                <h4><a href="http://front-2014.eb2a.com">project2</a></h4>
+              </div>
+            </div>
+      </div>
+         
+         
+         
+         
+         
+         
+          <div class="col-lg-4 col-md-6 col-xs-12 portfolio-item filter-web wow fadeInUp" data-wow-delay="0.2s">
+            <div class="portfolio-wrap">
+              <figure>
+              <img src="images/f.png"class="img-fluid" alt="">
+                <a href="https://mona0204.github.io/mobile/" class="link-preview" data-lightbox="portfolio" data-title="App 3" title="Preview"><i class="ion ion-eye"></i></a>
+                <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+              </figure>
+
+              <div class="portfolio-info">
+                <h4><a href="https://mona0204.github.io/mobile/">project3</a></h4>
+                <p></p>
+              </div>
+            </div>
+          </div>
+
+          </div>
+          </div>
+    </section>
+
+<!-- # endportfolio -->
+  
+  <!--==========================
+      Contact Section
+    ============================-->
+     <section id="contact" class="section-bg wow fadeInUp">
+      <div class="container">
+
+        <div class="section-header">
+          <h5>Contact ME</h5>
+          
+        </div>
+
+        <div class="row contact-info">
+
+          <div class="col-md-4">
+            <div class="contact-address">
+              <i class="ion-ios-location-outline"></i>
+              <h4>Address</h4>
+              1 ELTAMMER FAYSAL
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="contact-phone">
+              <i class="ion-ios-telephone-outline"></i>
+              <h4>Phone Number</h4>
+              <br>
+             01002070204
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="contact-email">
+              <i class="ion-ios-email-outline"></i>
+              <h4>Email</h4>
+              monaahmedhamdy333@gamil.com
+            </div>
+          </div>
+
+        </div>
+
+        <div class="form">
+          <form action="" method="post" role="form" class="contactForm">
+            <div class="form-row">
+              <div class="form-group col-md-12 col-xs-12">
+                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                <div class="validation"></div>
+              </div>
+              <div class="form-group col-md-12 col-xs-12">
+                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                <div class="validation"></div>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="validation"></div>
+            </div>
+            <div class="form-group">
+              <div class="validation"></div>
+            </div>
+            <div class="text-center"><button type="submit">send</button></div>
+          </form>
+        </div>
+ 
+      </div>
+    </section>
+<!-- endcontact -->
+      <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/superfish/hoverIntent.js"></script>
+  <script src="lib/superfish/superfish.min.js"></script>
+  <script src="lib/wow/wow.min.js"></script>
+  <script src="lib/waypoints/waypoints.min.js"></script>
+  <script src="lib/counterup/counterup.min.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/isotope/isotope.pkgd.min.js"></script>
+  <script src="lib/lightbox/js/lightbox.min.js"></script>
+  <script src="lib/touchSwipe/jquery.touchSwipe.min.js"></script>
+  <!-- Contact Form JavaScript File -->
+   <script src="contactform/contactform.js"></script>
+  <script src="js/main.js"></script>
+        
+        
+</body>
+</html>
+
+
+
